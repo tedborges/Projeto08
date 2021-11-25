@@ -15,6 +15,8 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Projeto 08</title>
@@ -56,9 +58,128 @@
       <section class="bg-top">
         <div class="overlay"></div>
         <div class="container fix-zindex">
+          <div class="texto-bg">
+            <div class="row">
+              <div class="col-md-6 padding30">
+                <h2>Seja muito bem-vindo(a)</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+                  itaque voluptas odit debitis nostrum vitae sint excepturi
+                  magni? Illo consectetur, illum harum aut error maxime ab
+                  mollitia nulla magnam. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Excepturi minima atque suscipit! Doloribus
+                  maxime atque assumenda ullam esse enim repudiandae? Saepe
+                  exercitationem soluta, a ea rerum ab ullam beatae. Ducimus!
+                </p>
+              </div>
+              <div class="col-md-6">
+                <h2>Entre para a nossa lista</h2>
+                <form>
+                  <div class="form-group">
+                    <label>Email address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Enter email"
+                    />
+                  </div>
+                  <button
+                    style="background-color: #3fa3c5; border: 0; width: 120px"
+                    type="submit"
+                    class="btn btn-primary"
+                  >
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="chamada">
+        <div class="container">
+          <h2 class="text-center">
+            <i class="fas fa-arrow-circle-down"></i>
+          </h2>
+        </div>
+      </section>
+
+      <section class="sobre" style="background-color: rgb(225, 225, 225)">
+        <div class="container">
           <div class="row">
-            <div class="col-md-6">Teste</div>
-            <div class="col-md-6">Teste</div>
+            <div class="col-md-12">
+              <div class="custom-title">
+                <div></div>
+                <h2>Sobre</h2>
+              </div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Dignissimos ex et asperiores maiores quis nihil commodi, saepe
+                est sint ut, velit nesciunt ea iure inventore soluta fuga quam
+                earum corrupti...
+              </p>
+              <!-- Button trigger modal -->
+              <div class="text-center">
+                <button
+                  style="background-color: #3fa3c5; border: 0"
+                  type="button"
+                  class="btn btn-info"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                >
+                  Saiba mais!
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Minha Historia!
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+                aliquid provident neque. A asperiores impedit omnis rem
+                molestiae obcaecati sapiente illum, tempore in aspernatur
+                explicabo. Dolore asperiores consequatur natus labore. Lorem
+                ipsum dolor, sit amet consectetur adipisicing elit. Dicta,
+                ratione mollitia unde, quam alias deserunt nesciunt quis ipsam
+                vero neque ipsum cumque. Unde fuga expedita ratione soluta
+                laboriosam nulla nam?
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -81,5 +202,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="/js/all.js"></script>
+    <script src="/js/fontawesome.js"></script>
   </body>
 </html>
