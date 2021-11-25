@@ -1,0 +1,42 @@
+.navbar {
+  background: white;
+}
+
+.nav-link {
+  margin: 0 15px;
+}
+
+.box-fix {
+  position: relative;
+  top: 55px;
+}
+
+.bg-top {
+  width: 100%;
+  height: 600px;
+  background-image: url('/images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.fix-zindex {
+  position: relative;
+  z-index: 2;
+}
+
+.overlay {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(40, 40, 40, 0.5);
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-link {
+    margin: 0;
+  }
+}
